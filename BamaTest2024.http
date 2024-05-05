@@ -1,0 +1,11 @@
+@BamaTest2024_HostAddress = http://localhost:5218
+
+GET {{BamaTest2024_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{BamaTest2024_HostAddress}}/todos/1
+Accept: application/json
+
+###
